@@ -41,41 +41,41 @@
 /* background colors */
 
 .bg-brown-primary {
-  background-color: var(--brown-primary);
+  background-color: var(--brown-primary) !important;
 }
 
 .bg-brown-secondary {
-  background-color: var(--brown-secondary);
+  background-color: var(--brown-secondary) !important;
 }
 
 .bg-blue-primary {
-  background-color: var(--blue-primary);
+  background-color: var(--blue-primary) !important;
 }
 
 .bg-blue-secondary {
-  background-color: var(--blue-secondary);
+  background-color: var(--blue-secondary) !important;
 }
 
 /* text colors */
 
 .text-brown-primary {
-  color: var(--brown-primary);
+  color: var(--brown-primary) !important;
 }
 
 .text-brown-secondary {
-  color: var(--brown-secondary);
+  color: var(--brown-secondary) !important;
 }
 
 .text-blue-primary {
-  color: var(--blue-primary);
+  color: var(--blue-primary) !important;
 }
 
 .text-blue-secondary {
-  color: var(--blue-secondary);
+  color: var(--blue-secondary) !important;
 }
 
 /* box shadow */
 
 .box-shadow {
-  box-shadow: 0px 4px 4px 0px #00000040;
+  box-shadow: 0px 4px 4px 0px #00000040 !important;
 }
