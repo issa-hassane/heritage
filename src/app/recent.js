@@ -1,6 +1,6 @@
 "use client";
 
-import { Col } from "react-bootstrap";
+import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 
 function Recent({ data }) {

@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "./globals.css";
 import BootstrapClient from "@/app/components/BootstrapClient";
 import Banner from "./components/banner";
+import Footer from "./components/footer";
 
 export const metadata = {
   title: "Heritage Haven",
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
       <body className={"bodyFontFamily"}>
         <Banner />
         {children}
+        <Footer />
       </body>
       <BootstrapClient />
     </html>
