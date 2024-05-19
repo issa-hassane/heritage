@@ -1,5 +1,6 @@
 "use client";
 import NavBar from "@/app/components/NavBar";
+import CartFooter from "@/app/components/CartFooter";
 import "./styles.css";
 import { useState } from "react";
 function Cart() {
@@ -14,7 +15,7 @@ function Cart() {
   return (
     <>
       <NavBar />
-      <section className="bg-brown-secondary">
+      <section style={{ background: "#FFDEC3E0" }}>
         <div className="bg-light p-1">
           <div className="container">
             <p className="mb-0 text-blue-primary">Deliver to : Bhubaneswar</p>
@@ -149,6 +150,7 @@ function Cart() {
         <br />
         <br />
       </section>
+      <CartFooter />
     </>
   );
 }
